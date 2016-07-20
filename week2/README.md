@@ -38,12 +38,12 @@
       
       
  <h2 id="作业4">作业4</h2>
- ###<h3 id="simulator">open source project on simulator</h3>
+ ###<h3 id="simulator">open source project on simulator</h3>###
 ![alt text][img02]
 
   [img02]:https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week2/src/common/images/open_source_project_simulator.png
   
-   ###<h3 id="device">open source project on device</h3>
+   ###<h3 id="device">open source project on device</h3>###
 ![alt text][img03]
 
   [img03]:https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week2/src/common/images/open_source_project_%E7%9C%9F%E6%9C%BA.png
