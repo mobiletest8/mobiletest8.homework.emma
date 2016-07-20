@@ -33,15 +33,17 @@
   
   
 <h2 id="作业3">作业3<h2>
-1. 反编译AndroidManifest和资源文件:   
+1. 反编译AndroidManifest和资源文件:  
+
 ![alt text][img04-01]
 
 2. 反编译java代码:  
+ 
 ![alt text][img04-02]
 
 3. 此时使用jd-gui打开反编译后的文件classes-dex2jar.jar
-![alt text][img04-03] 
 
+![alt text][img04-03] 
 
 
  [img04-01]:https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week3/src/common/images/decompile1.png
