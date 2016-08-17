@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="grid suite" parallel="tests"
+       thread-count="5">
+
+
+  <test name="NX511J" preserve-order="true" > 
+   <parameter name = "device" value = "NX511J"/>  
+    <classes>        
+      <class name="com.example.myAppiumProject.AndroidAppiumTest" />
+    </classes>
+  </test>
+
+   <test name="honor" preserve-order="true" >    
+   <parameter name = "device" value = "honor"/> 
+    <classes>          
+      <class name="com.example.myAppiumProject.AndroidAppiumTest" />
+    </classes>
+  </test>
+
+
+</suite>  

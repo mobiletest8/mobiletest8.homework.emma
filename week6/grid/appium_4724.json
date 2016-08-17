@@ -1,0 +1,27 @@
+{
+	"capabilities":
+	    [
+	      {
+	        "browserName": "HKR4C15A16007171",
+	        "version":"5.1.1",
+	        "maxInstances":1,
+	        "deviceName":"honor",
+	        "platform":"ANDROID"
+	      }
+	    ],
+	"configuration":
+	{
+	  "cleanUpCycle":2000,
+	  "timeout":30000,
+	  "proxy":"org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+	  "url":"http://0.0.0.0:4724/wd/hub",
+	  "host":"0.0.0.0",
+	  "port":4724,
+	  "maxSession": 1,
+	  "register": true,
+	  "registerCycle": 5000,
+	  "hubPort": 4444,
+	  "hubHost":"localhost"
+	}
+
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [grid suite]" parallel="tests">
+  <parameter name="device" value="honor"/>
+  <test name="NX511J(failed)" parallel="tests">
+    <parameter name="device" value="NX511J"/>
+    <classes>
+      <class name="com.example.myAppiumProject.AndroidAppiumTest">
+        <methods>
+          <include name="apidemo"/>
+          <include name="tearDownAfterClass"/>
+          <include name="tearDownAfterClass"/>
+          <include name="SetUpBeforeClass"/>
+          <include name="SetUpBeforeClass"/>
+        </methods>
+      </class> <!-- com.example.myAppiumProject.AndroidAppiumTest -->
+    </classes>
+  </test> <!-- NX511J(failed) -->
+</suite> <!-- Failed suite [grid suite] -->

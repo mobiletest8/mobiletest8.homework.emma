@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="grid suite" duration-ms="14668" started-at="2016-08-17T07:45:10Z" finished-at="2016-08-17T07:45:25Z">
+    <groups>
+    </groups>
+    <test name="NX511J" duration-ms="13929" started-at="2016-08-17T07:45:10Z" finished-at="2016-08-17T07:45:24Z">
+      <class name="com.example.myAppiumProject.AndroidAppiumTest">
+        <test-method status="PASS" signature="SetUpBeforeClass(java.lang.String)[pri:0, instance:com.example.myAppiumProject.AndroidAppiumTest@146ba0ac]" name="SetUpBeforeClass" is-config="true" duration-ms="5185" started-at="2016-08-17T15:45:10Z" finished-at="2016-08-17T15:45:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NX511J]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpBeforeClass -->
+        <test-method status="PASS" signature="apidemo()[pri:0, instance:com.example.myAppiumProject.AndroidAppiumTest@146ba0ac]" name="apidemo" duration-ms="6099" started-at="2016-08-17T15:45:16Z" finished-at="2016-08-17T15:45:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apidemo -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:com.example.myAppiumProject.AndroidAppiumTest@146ba0ac]" name="tearDownAfterClass" is-config="true" duration-ms="2633" started-at="2016-08-17T15:45:22Z" finished-at="2016-08-17T15:45:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- com.example.myAppiumProject.AndroidAppiumTest -->
+    </test> <!-- NX511J -->
+    <test name="honor" duration-ms="14668" started-at="2016-08-17T07:45:10Z" finished-at="2016-08-17T07:45:25Z">
+      <class name="com.example.myAppiumProject.AndroidAppiumTest">
+        <test-method status="PASS" signature="SetUpBeforeClass(java.lang.String)[pri:0, instance:com.example.myAppiumProject.AndroidAppiumTest@1ce92674]" name="SetUpBeforeClass" is-config="true" duration-ms="5048" started-at="2016-08-17T15:45:10Z" finished-at="2016-08-17T15:45:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[honor]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUpBeforeClass -->
+        <test-method status="PASS" signature="apidemo()[pri:0, instance:com.example.myAppiumProject.AndroidAppiumTest@1ce92674]" name="apidemo" duration-ms="6847" started-at="2016-08-17T15:45:15Z" finished-at="2016-08-17T15:45:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apidemo -->
+        <test-method status="PASS" signature="tearDownAfterClass()[pri:0, instance:com.example.myAppiumProject.AndroidAppiumTest@1ce92674]" name="tearDownAfterClass" is-config="true" duration-ms="2759" started-at="2016-08-17T15:45:22Z" finished-at="2016-08-17T15:45:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAfterClass -->
+      </class> <!-- com.example.myAppiumProject.AndroidAppiumTest -->
+    </test> <!-- honor -->
+  </suite> <!-- grid suite -->
+</testng-results>
