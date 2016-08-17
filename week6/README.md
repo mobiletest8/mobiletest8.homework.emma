@@ -63,7 +63,9 @@ appium -p 4724 -bp 4726 --nodeconfig /Users/appium/grid/appium_4724.json
 
 
 ###<h3 id="hw-4">4.check the hub&node start up successfully:</h3>
+![alt text][img01]
 
+[img01]:https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week6/gridconsole.png
 
 
 ###<h3 id="hw-5">5.configure the testNG file:</h3>
