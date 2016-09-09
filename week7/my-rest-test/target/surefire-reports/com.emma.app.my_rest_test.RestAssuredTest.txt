@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.emma.app.my_rest_test.RestAssuredTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.589 sec - in com.emma.app.my_rest_test.RestAssuredTest

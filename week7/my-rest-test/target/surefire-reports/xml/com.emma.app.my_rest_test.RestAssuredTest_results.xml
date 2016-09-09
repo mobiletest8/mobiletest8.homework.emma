@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="$results.testClass.xmlTest.name"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.067">
+  <properties />
+  
+  
+            <testcase name="testGameVideo on testGameVideo(com.emma.app.my_rest_test.RestAssuredTest)" time="2.067" classname="com.emma.app.my_rest_test.RestAssuredTest" />
+      
+</testsuite>

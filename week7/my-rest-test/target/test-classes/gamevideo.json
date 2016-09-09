@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "count": {
+          "type": "integer"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "integer"
+              },
+              "name": {
+                "type": "string"
+              },
+              "style": {
+                "type": "integer"
+              },
+              "cover": {
+                "type": "string"
+              },
+              "targetKey": {
+                "type": "string"
+              },
+              "meta": {
+                "type": "object",
+                "properties": {
+                  "duration": {
+                    "type": "string"
+                  },
+                  "playCount": {
+                    "type": "integer"
+                  },
+                  "creator": {
+                    "type": "string"
+                  },
+                  "gender": {
+                    "type": "string"
+                  },
+                  "giftCount": {
+                    "type": "integer"
+                  },
+                  "createdTime": {
+                    "type": "integer"
+                  },
+                  "avatar": {
+                    "type": "string"
+                  },
+                  "commentCount": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "duration",
+                  "playCount",
+                  "creator",
+                  "gender",
+                  "giftCount",
+                  "createdTime",
+                  "avatar",
+                  "commentCount"
+                ]
+              }
+            },
+            "required": [
+              "type",
+              "name",
+              "style",
+              "cover",
+              "targetKey",
+              "meta"
+            ]
+          }
+        },
+        "breakpoint": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "count",
+        "items",
+        "breakpoint"
+      ]
+    }
+  },
+  "required": [
+    "code",
+    "message",
+    "data"
+  ]
+}

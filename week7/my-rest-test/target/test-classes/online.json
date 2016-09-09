@@ -1,0 +1,111 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "count": {
+          "type": "integer"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "integer"
+              },
+              "name": {
+                "type": "string"
+              },
+              "style": {
+                "type": "integer"
+              },
+              "cover": {
+                "type": "string"
+              },
+              "targetKey": {
+                "type": "string"
+              },
+              "meta": {
+                "type": "object",
+                "properties": {
+                  "onlineCount": {
+                    "type": "integer"
+                  },
+                  "creator": {
+                    "type": "string"
+                  },
+                  "gender": {
+                    "type": "string"
+                  },
+                  "gameName": {
+                    "type": "string"
+                  },
+                  "subscriberCount": {
+                    "type": "integer"
+                  },
+                  "gameTargetKey": {
+                    "type": "string"
+                  },
+                  "avatar": {
+                    "type": "string"
+                  },
+                  "gameCtxPath": {
+                    "type": "string"
+                  },
+                  "live": {
+                    "type": "boolean"
+                  },
+                  "professional": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "onlineCount",
+                  "creator",
+                  "gender",
+                  "gameName",
+                  "subscriberCount",
+                  "gameTargetKey",
+                  "avatar",
+                  "gameCtxPath",
+                  "live",
+                  "professional"
+                ]
+              }
+            },
+            "required": [
+              "type",
+              "name",
+              "style",
+              "cover",
+              "targetKey",
+              "meta"
+            ]
+          }
+        },
+        "breakpoint": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "count",
+        "items",
+        "breakpoint"
+      ]
+    }
+  },
+  "required": [
+    "code",
+    "message",
+    "data"
+  ]
+}

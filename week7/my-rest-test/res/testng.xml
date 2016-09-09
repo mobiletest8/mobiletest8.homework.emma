@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="test" parallel="true">
+
+    <test name="my_rest_test_login" preserver-order="true">
+        <classes>
+            <class name="com.emma.app.my_rest_test.LoginTest" >               
+                 <methods>  
+                    <include name="testLogin"></include>                      
+                </methods>                 
+                </class>           
+        </classes>
+    </test> 
+    <test name="my_rest_test_list" preserver-order="true">
+        <classes>
+            <class name="com.emma.app.my_rest_test.VideoListTest" />                       
+        </classes>
+    </test> 
+</suite> 

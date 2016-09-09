@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <testLogin>
+        <accessToken>96e79218965eb72c92a549dd5a330112</accessToken> 
+        <openUid>20000000808</openUid> 
+        <_appkey>CSRecAndroidSDK</_appkey>
+        <_xappkey>1f7ce3cc55184019</_xappkey>
+        <secret>45edbb9b8a8943759e72b7bb935b9134</secret>
+    </testLogin>
+    <testOnlineVideoList>
+        <_appkey>CSRecAndroidSDK</_appkey>
+        <_xappkey>1f7ce3cc55184019</_xappkey>
+        <secret>45edbb9b8a8943759e72b7bb935b9134</secret>
+        <gameId>0</gameId>
+        <pageSize>20</pageSize>
+        <__identifier>475213605</__identifier>
+        <_sdkVersion>1.0.8.5946</_sdkVersion>        
+    </testOnlineVideoList>
+    <testGameVideoList>
+        <_appkey>CSRecAndroidSDK</_appkey>
+        <_xappkey>1f7ce3cc55184019</_xappkey>
+        <secret>45edbb9b8a8943759e72b7bb935b9134</secret>
+        <gameId>1147</gameId>
+        <pageSize>20</pageSize>
+        <__identifier>475213605</__identifier>
+        <_sdkVersion>1.0.8.5946</_sdkVersion>        
+    </testGameVideoList>
+    <testmethod1>
+	    <input>1</input>
+	    <button>2</button>
+    </testmethod1>
+</data>

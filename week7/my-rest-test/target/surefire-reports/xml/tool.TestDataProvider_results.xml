@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="my-rest-test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.029">
+  <properties />
+  
+  
+            <testcase name="testmethod1" time="0.001" classname="tool.TestDataProvider" />
+                <testcase name="testmethod4" time="0.007" classname="tool.TestDataProvider" />
+                <testcase name="testmethod3" time="0.007" classname="tool.TestDataProvider" />
+                <testcase name="testmethod2" time="0.007" classname="tool.TestDataProvider" />
+                <testcase name="testmethod1" time="0.007" classname="tool.TestDataProvider" />
+      
+</testsuite>

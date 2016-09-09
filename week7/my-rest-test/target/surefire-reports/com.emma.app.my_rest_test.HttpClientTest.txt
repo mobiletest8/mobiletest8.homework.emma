@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.emma.app.my_rest_test.HttpClientTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.929 sec <<< FAILURE! - in com.emma.app.my_rest_test.HttpClientTest
+productInfo on productInfo(com.emma.app.my_rest_test.HttpClientTest)(com.emma.app.my_rest_test.HttpClientTest)  Time elapsed: 0.336 sec  <<< FAILURE!
+java.lang.AssertionError: 返回的视频数量不一致 expected [12652] but found [12658]
+	at com.emma.app.my_rest_test.HttpClientTest.productInfo(HttpClientTest.java:65)
+
