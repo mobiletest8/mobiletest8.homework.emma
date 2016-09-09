@@ -19,7 +19,8 @@
 
 见目录下工程 [my-rest-test](https://github.com/emmahuang/mobiletest8.homework.emma/tree/master/week7/my-rest-test "my-rest-test")
 <h4>1.新建maven工程</h4>
-<h4>2.在[pom.xml](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/pom.xml "pom.xml")文件中添加依赖包，并更改testng的report为reportNG(需要增加依赖包:velocity,guice,reportng)</h4>
+<h4>2.在pom.xml中添加依赖包</h4>
+在[pom.xml](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/pom.xml "pom.xml")文件中添加依赖包，并更改testng的report为reportNG(需要增加依赖包:velocity,guice,reportng)
 
 
 ```xml
@@ -169,18 +170,21 @@
 
 ```
 
-<h4>3.新建测试方法
+<h4>3.新建测试方法</h4>
       [LoginTest.java](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/src/test/java/com/emma/app/my_rest_test/LoginTest.java "LoginTest.java")
-      [VideoListTest.java](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/src/test/java/com/emma/app/my_rest_test/VideoListTest.java "VideoListTest.java")</h4>
+      [VideoListTest.java](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/src/test/java/com/emma/app/my_rest_test/VideoListTest.java "VideoListTest.java")
 
-<h4>4.新建数据源文件
+<h4>4.新建数据源文件</h4>
       [TestData.xml](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/target/TestData.xml "TestData.xml")
       
-<h4>5.用DOM4J解析XML,见[ParserXml.java](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/src/test/java/tools/ParserXml.java "ParserXml.java")
+<h4>5.用DOM4J解析XML</h4>
+见[ParserXml.java](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/src/test/java/tools/ParserXml.java "ParserXml.java")
 
-<h4>6.把解析出来的list转换成Object[][]类型的数据，且结合在@DataProvider中,见[TestData.java](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/src/test/java/tools/TestData.java "TestData.java")
+<h4>6.把解析出来的list转换成Object[][]类型的数据，且结合在@DataProvider中</h4>
+见[TestData.java](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/src/test/java/tools/TestData.java "TestData.java")
 
-<h4>7.配置testng文件,见[testng.xml](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/res/testng.xml "testng.xml")
+<h4>7.配置testng文件</h4>
+见[testng.xml](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/res/testng.xml "testng.xml")
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -201,14 +205,13 @@
         </classes>
     </test> 
 </suite> 
-
 ```
 
 <h4>8.右键pom.xml文件 Run As Maven test</h4>
 
-<h4>9.执行完毕，在target,surefire-reports下得到测试报告，见截图
-![alt text][img01]
+<h4>9.执行完毕，在target,surefire-reports下得到测试报告，见截图</h4>
 
+![alt text][img01]
   [img01]:https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/ReportNG.png
 
 
