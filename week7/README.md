@@ -171,11 +171,13 @@
 ```
 
 <h4>3.新建测试方法</h4>
-      [LoginTest.java](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/src/test/java/com/emma/app/my_rest_test/LoginTest.java "LoginTest.java")
-      [VideoListTest.java](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/src/test/java/com/emma/app/my_rest_test/VideoListTest.java "VideoListTest.java")
+[LoginTest.java](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/src/test/java/com/emma/app/my_rest_test/LoginTest.java "LoginTest.java")
+
+[VideoListTest.java](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/src/test/java/com/emma/app/my_rest_test/VideoListTest.java "VideoListTest.java")
+
 
 <h4>4.新建数据源文件</h4>
-      [TestData.xml](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/target/TestData.xml "TestData.xml")
+见[TestData.xml](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/target/TestData.xml "TestData.xml")
       
 <h4>5.用DOM4J解析XML</h4>
 见[ParserXml.java](https://github.com/emmahuang/mobiletest8.homework.emma/blob/master/week7/my-rest-test/src/test/java/tools/ParserXml.java "ParserXml.java")
