@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="my_rest_test_login"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.147">
+  <properties />
+  
+  
+            <testcase name="testLogin" time="3.147" classname="com.emma.app.my_rest_test.LoginTest" />
+      
+</testsuite>

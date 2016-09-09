@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]" junit="true">
+  <test name="Command line test(failed)" junit="true">
+    <classes>
+      <class name="com.emma.app.my_rest_test.AppTest">
+        <methods>
+          <include name="testOnlineVideoList"/>
+        </methods>
+      </class> <!-- com.emma.app.my_rest_test.AppTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

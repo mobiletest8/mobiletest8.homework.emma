@@ -1,0 +1,155 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "user": {
+          "type": "object",
+          "properties": {
+            "uid": {
+              "type": "integer"
+            },
+            "nickname": {
+              "type": "string"
+            },
+            "avatar": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "string"
+            },
+            "signature": {
+              "type": "string"
+            },
+            "rank": {
+              "type": "object",
+              "properties": {
+                "point": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "point"
+              ]
+            }
+          },
+          "required": [
+            "uid",
+            "nickname",
+            "avatar",
+            "gender",
+            "signature",
+            "rank"
+          ]
+        },
+        "roomList": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "name": {
+                "type": "string"
+              },
+              "announcement": {
+                "type": "string"
+              },
+              "logo": {
+                "type": "string"
+              },
+              "creator": {
+                "type": "object",
+                "properties": {
+                  "uid": {
+                    "type": "integer"
+                  },
+                  "nickname": {
+                    "type": "string"
+                  },
+                  "avatar": {
+                    "type": "string"
+                  },
+                  "gender": {
+                    "type": "string"
+                  },
+                  "signature": {
+                    "type": "string"
+                  },
+                  "rank": {
+                    "type": "object",
+                    "properties": {
+                      "point": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "point"
+                    ]
+                  }
+                },
+                "required": [
+                  "uid",
+                  "nickname",
+                  "avatar",
+                  "gender",
+                  "signature",
+                  "rank"
+                ]
+              },
+              "professional": {
+                "type": "integer"
+              },
+              "subscriberCount": {
+                "type": "integer"
+              },
+              "shareUrl": {
+                "type": "string"
+              },
+              "lastLiveTime": {
+                "type": "integer"
+              },
+              "lastLiveTimeDesc": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "announcement",
+              "logo",
+              "creator",
+              "professional",
+              "subscriberCount",
+              "shareUrl",
+              "lastLiveTime",
+              "lastLiveTimeDesc"
+            ]
+          }
+        },
+        "token": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "user",
+        "roomList",
+        "token"
+      ]
+    }
+  },
+  "required": [
+    "code",
+    "message",
+    "data"
+  ]
+}
